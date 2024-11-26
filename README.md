@@ -8,7 +8,7 @@
 <div align="center">
 <br>
 <a href="https://scholar.google.com/citations?user=phg8yxoAAAAJ&hl=zh-CN&oi=ao">Run Luo</a><sup><span>1,2*</span></sup>, 
-<a>Haonan Zhang</a><sup><span>3*</span></sup>,
+<a href="https://github.com/zchoi">Haonan Zhang</a><sup><span>3*</span></sup>,
 <a>Longze Chen</a><sup><span>1,2*</span></sup>,
 <a>Ting-En Lin</a><sup><span>3*</span></sup>,
 <br>
