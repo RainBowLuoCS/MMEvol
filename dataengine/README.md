@@ -7,7 +7,7 @@
 <div align="center">
 <br>
 <a href="https://scholar.google.com/citations?user=phg8yxoAAAAJ&hl=zh-CN&oi=ao">Run Luo</a><sup><span>1,2*</span></sup>, 
-<a>Haonan Zhang</a><sup><span>3*</span></sup>,
+<a href="https://github.com/zchoi">Haonan Zhang</a><sup><span>3*</span></sup>,
 <a>Longze Chen</a><sup><span>1,2*</span></sup>,
 <a>Ting-En Lin</a><sup><span>3*</span></sup>,
 <a>Xiong Liu</a><sup><span>3</span></sup>,
@@ -44,11 +44,11 @@
 Follow the instructions below to generate MMEvol-480k.
 
 1. Download SEED-163k json file (`mm_seed_no_evo_163k.json`) from [🤗 huggingface](https://huggingface.co/datasets/Tongyi-ConvAI/MMEvol/tree/main/jsons), and place it under the `./dataengine/datasets` path.
-2. Execute preprocessing code under `dataengine/datasets` path to extract each sample to the `meta_data` folder by:
+2. Execute preprocessing code under `./dataengine/datasets` path to extract each sample to the `meta_data` folder by:
 ```python
 python dataengine/datasets/process.py
 ```
-3. Prepare the data storage folder by referring to the format of `./dataengine/evolution/folder_template`, you can just copy folder_template and name it as your data name as you like, _e.g._, mmevol_1k_evo.json.
+3. Prepare the data storage folder by referring to the format of `./dataengine/evolution/folder_template`, you can copy folder_template and name it as your data name as you like, _e.g._, mmevol_1k_evo.json.
 4. Ensure that your `api_base` and `key` are correctly configured before starting generation. You should put your key and api_base on both:
 
 - lines 129-130 in dataengine/multi_round.py
