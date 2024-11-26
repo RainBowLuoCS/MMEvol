@@ -35,12 +35,12 @@
 <sup>5</sup> Independent Researcher
 <sup>6</sup> The University of Sydney<br>
     
-![Multi-Modal](https://img.shields.io/badge/Task-Multi--Modal-red) <a href='https://arxiv.org/pdf/2409.05840'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> <a href='https://huggingface.co/models/Tongyi-ConvAI/MMEvol'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'></a> <a href='https://huggingface.co/datasets/Tongyi-ConvAI/MMEvol'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Data-green'> <a href='https://mmevol.github.io/'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Project-Page-green'></a></a>
+![Multi-Modal](https://img.shields.io/badge/Task-Multi--Modal-red) <a href='https://arxiv.org/pdf/2409.05840'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> <a href='https://huggingface.co/Tongyi-ConvAI/MMEvol'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'></a> <a href='https://huggingface.co/datasets/Tongyi-ConvAI/MMEvol'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Data-green'> <a href='https://mmevol.github.io/'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Project-Page-green'></a></a>
 
 </div>
 
 
-<font size=5><div align='center' >  [[📖 arXiv Paper](https://arxiv.org/pdf/2409.05840)] [[📊 Dataset](https://huggingface.co/datasets/Tongyi-ConvAI/MMEvol)] [[🏆 Models](https://huggingface.co/models/Tongyi-ConvAI/MMEvol)]  </div></font>
+<font size=5><div align='center' >  [[📖 arXiv Paper](https://arxiv.org/pdf/2409.05840)] [[📊 Dataset](https://huggingface.co/datasets/Tongyi-ConvAI/MMEvol)] [[🏆 Models](https://huggingface.co/Tongyi-ConvAI/MMEvol)]  </div></font>
 MMEvol is the first method that successfully introduces Evol-Instruct into multimodal domain to improve the diversity and complexity of multimodal instruction data. Compared with previous methods like  VILA2, MIMIC-IT, and MMInstruct, it can perform iterative evolution in a very elegant and simple way in a fully automatic way, breaking through human imagination of data complexity and diversity. It has no restrictions on the form of data, the type of task, or complex processing. It can quickly perform self-iterative evolution on limited image instruction data to obtain ultra-high-quality multimodal data, thereby giving multimodal models more powerful capabilities. At the same time, it can be orthogonally combined with other data flow-driven methods such as VILA2, MIMIC-IT, and MMInstruct to obtain more powerful data construction effects. Everyone is welcome to experience it now!
 
 ## 🔥 Update
@@ -101,8 +101,8 @@ Here are the pretrained weights and instruction tuning weights
 
 | Model            | Pretrained Projector | Base LLM  | PT Data                                                      | IT Data | Download |
 | ---------------- | -------------------- | --------- | ------------------------------------------------------------ | ------- | -------- |
-| MMEvol-Qwen2-7B  | [mm_projector](https://huggingface.co/models/Tongyi-ConvAI/MMEvol)     | Qwen2-7B  | [LLaVA-Pretrain](https://huggingface.co/datasets/liuhaotian/LLaVA-Pretrain) | MMEvol  | [ckpt](https://huggingface.co/models/Tongyi-ConvAI/MMEvol) |
-| MMEvol-LLaMA3-8B | [mm_projector](https://huggingface.co/models/Tongyi-ConvAI/MMEvol)     | LLaMA3-8B | [LLaVA-Pretrain](https://huggingface.co/datasets/liuhaotian/LLaVA-Pretrain) | MMEvol  | [ckpt](https://huggingface.co/models/Tongyi-ConvAI/MMEvol) |
+| MMEvol-Qwen2-7B  | [mm_projector](https://huggingface.co/Tongyi-ConvAI/MMEvol)     | Qwen2-7B  | [LLaVA-Pretrain](https://huggingface.co/datasets/liuhaotian/LLaVA-Pretrain) | MMEvol  | [ckpt](https://huggingface.co/Tongyi-ConvAI/MMEvol) |
+| MMEvol-LLaMA3-8B | [mm_projector](https://huggingface.co/Tongyi-ConvAI/MMEvol)     | LLaMA3-8B | [LLaVA-Pretrain](https://huggingface.co/datasets/liuhaotian/LLaVA-Pretrain) | MMEvol  | [ckpt](https://huggingface.co/Tongyi-ConvAI/MMEvol) |
 
 ### Performance
 
