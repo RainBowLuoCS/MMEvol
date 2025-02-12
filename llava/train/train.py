@@ -17,7 +17,7 @@ import copy
 import json
 import logging
 import os
-import cv2
+# import cv2
 import random
 import numpy as np
 from copy import deepcopy
@@ -1258,7 +1258,7 @@ def train(attn_implementation=None):
             )
         ))
     model_max_length_args = {}
-    if 'llava-v1.6-8b' not in model_args.model_name_or_path:
+    if 'llava-v1.6-8b' not in model_args.model_name_or_path.lower():
         config = transformers.AutoConfig.from_pretrained(
             model_args.model_name_or_path, trust_remote_code=True)
         if config.max_position_embeddings < training_args.model_max_length:
@@ -1267,7 +1267,7 @@ def train(attn_implementation=None):
             model_max_length_args.update(
                 {'max_position_embeddings': training_args.model_max_length})
     if model_args.vision_tower is not None:
-        if 'mpt' in model_args.model_name_or_path:
+        if 'mpt' in model_args.model_name_or_path.lower():
             config = transformers.AutoConfig.from_pretrained(
                 model_args.model_name_or_path, trust_remote_code=True)
             config.attn_config['attn_impl'] = training_args.mpt_attn_impl
@@ -1277,7 +1277,7 @@ def train(attn_implementation=None):
                 cache_dir=training_args.cache_dir,
                 **bnb_model_from_pretrained_args
             )
-        elif 'qwen' in model_args.model_name_or_path:
+        elif 'qwen' in model_args.model_name_or_path.lower():
             rank0_print("using qwen2, powerful !")
             model = LlavaQwen2ForCausalLM.from_pretrained(
                 model_args.model_name_or_path,
@@ -1342,7 +1342,7 @@ def train(attn_implementation=None):
         rank0_print("Adding LoRA adapters...")
         model = get_peft_model(model, lora_config)
 
-    if 'mpt' in model_args.model_name_or_path:
+    if 'mpt' in model_args.model_name_or_path.lower():
         tokenizer = transformers.AutoTokenizer.from_pretrained(
             model_args.model_name_or_path,
             cache_dir=training_args.cache_dir,
