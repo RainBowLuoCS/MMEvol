@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "llava-next"
+name = "mmevol"
 version = "0.0.1"
 description = "MMevol"
 readme = "README.md"
@@ -27,8 +27,8 @@ train = ["deepspeed==0.12.6", "ninja", "wandb"]
 build = ["build", "twine"]
 
 [project.urls]
-"Homepage" = "https://github.com/RainBowLuoCS/DEEM"
-"Bug Tracker" = "https://github.com/RainBowLuoCS/DEEMissues"
+"Homepage" = "https://github.com/RainBowLuoCS/MMEvol"
+"Bug Tracker" = "https://github.com/RainBowLuoCS/MMEvolissues"
 
 [tool.setuptools.packages.find]
 exclude = ["assets*", "benchmark*", "docs", "dist*", "playground*", "scripts*", "tests*"]
