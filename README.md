@@ -46,7 +46,7 @@
 MMEvol is the pioneering method that successfully incorporates Evol-Instruct into the multimodal domain, enhancing the diversity and complexity of multimodal instruction data. Unlike previous methods such as VILA2, MIMIC-IT, and MMInstruct, it achieves iterative evolution in an elegant, simple, and fully automated manner, transcending traditional limits on data complexity and diversity. MMEvol imposes no restrictions on data format, task type, or intricate processing, allowing for rapid self-iterative evolution of limited image instruction data to produce exceptionally high-quality multimodal data. This empowers multimodal models with enhanced capabilities. Additionally, it can be seamlessly combined with other data flow-driven methods like VILA2, MIMIC-IT, and MMInstruct for more robust data construction. We invite everyone to experience it now!
 
 ## 🔥 Update
-
+- [16/05]🔥one paper (MAmmoTH-VL) based on our method at large scale is accepted by ACL2025 main!
 - [11/10]🔥MMEvol is coming! We release the [code](https://github.com/RainBowLuoCS/MMEvol), [models](https://huggingface.co/models/Tongyi-ConvAI/MMEvol), and [data](https://huggingface.co/datasets/Tongyi-ConvAI/MMEvol) for MMEvol!
 - [09/09]🔥MMEvol is coming! We release the [paper](https://arxiv.org/pdf/2409.05840) for MMEvol!
 
